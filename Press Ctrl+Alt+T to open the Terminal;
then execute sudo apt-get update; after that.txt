@@ -1,0 +1,3 @@
+Press Ctrl+Alt+T to open the Terminal;
+then execute sudo apt-get update; after that,
+run sudo apt-get install r-base;

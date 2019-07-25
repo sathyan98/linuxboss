@@ -1,0 +1,46 @@
+lsb_release a = for checking the version of linux
+
+
+TO INSTALL R
+Press Ctrl+Alt+T to open the Terminal;
+then execute sudo apt-get update; after that,
+run sudo apt-get install r-base;
+sudo apt-get install r-base-dev
+
+
+TO DOWNLOAD R STUDIO
+just download it from the website
+
+TO INSTALL POSGRESQL
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo -i -u postgres or sudo -u postgres psql
+
+psql
+
+TO quit
+\q
+
+use repository only when needed(ONLY TO CHECK THE VERSION)
+
+deb http://apt.postgresql.org/pub/repos/apt/ YOUR_UBUNTU_VERSION_HERE-pgdg main
+
+
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+
+to install r packages
+
+deb https://cloud.r-project.org/bin/linux/ubuntu disco-cran35/
+
+TO UPDATE THE PACKAGES
+ 
+sudo apt-get build-dep r-cran-foo OR any other cran names
+
+PACKAGES
+
+R_LIBS_USER=${R_LIBS_USER-'~/R/$platform-library/3.5'}
+
+R_LIBS_SITE=${R_LIBS_SITE-'/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library'} j
+
+
